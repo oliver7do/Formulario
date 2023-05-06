@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/formulaire.css">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <form>
+
+          <div class="nome">
+            <div class="psd">
+          <label for="pseudonyme">Pseudonyme</label><br />
+        </div>
+          <input
+            type="text"
+            placeholder="exemple"
+            id="pseudonyme"
+            name="pseu donyme"
+          /><br />
+        </div>
+
+        <div class="passe">
+          <div class="pas">
+            <label for="password">Mot passe</label><br />
+            </div>
+            <input
+              type="password"
+              placeholder="mot de passe"
+              id="password"
+              name="password"
+            /><br />
+          </div>
+
+          <div class="email">
+            <div class="ema">
+          <label for="email">Email</label><br />
+          </div>
+          <input type="email" placeholder="email" id="email" name="email" /><br />
+        </div>
+
+      <div class="foto">
+        <div class="ph">
+          <label for="Photo">Photo</label>
+        </div>
+          <div class="container">
+            <input type="submit" value="Choisir un fichier">
+          </div>
+          <div class="fic">Aucun fichier choisi</div>
+        </div>
+                                     <!-- BOXXXXXXXXXX -->
+        <div class="box">
+          <form action="">
+            <fieldset>
+              <legend><b>Choix multiples</b></legend>
+
+              <div>
+                <p class="dest"> Quelle destination </br> choisissez-vous?</p></div>
+                <div class="Quelle"> 
+                <input type="checkbox" id="ukraine" name="country" value="ukraine" required>
+                <label for="ukraine">Ukraine</label>
+                <input type="checkbox" id="angola" name="country" value="angola" required>
+                <label for="angola">Angola</label>
+                <input type="checkbox" id="france" name="country" value="france" required>
+                <label for="france">France</label>
+                </div>
+       
+              <div>
+                <p class="Q"> Qui seront vos </br> accompagnateurs?</p></div>
+                <div class="Qui"> 
+                <input type="radio" id="en famille" name="en famille" value="en famille" required>
+                <label for="en famille">En famille</label>
+                <input type="radio" id="entre amis" name="entre amis" value="entre amis" required>
+                <label for="entre amis">Entre amis</label>
+                <input type="radio" id="solo" name="solo" value="solo" required>
+                <label for="solo">Solo</label>
+              </div>
+
+        </fieldset>
+      </form>
+       </div>
+      </div>
+    </div>
+
+        <div>
+          <div class="co">Commentaires </div>
+          
+          <div class="sms">
+            <textarea class="field" placeholder="Écrire n'importe quoi ici"></textarea>
+          </div>
+          </div>
+            <input type="submit" value="Envoyer">
+            <input type="submit" value="Annuler">
+          </div>
+        </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
